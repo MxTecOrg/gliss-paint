@@ -140,6 +140,7 @@ public class MainActivity extends Activity
 		@Override
         public boolean onConsoleMessage(ConsoleMessage consoleMessage)
 		{
+		    /*
 		  webview.loadUrl("javascript:OnConsole(\"" + consoleMessage.message() + " -- From line "
 							+ consoleMessage.lineNumber() + " of "
 							+ consoleMessage.sourceId() + "\");");
