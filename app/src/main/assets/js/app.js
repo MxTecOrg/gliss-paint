@@ -191,6 +191,7 @@ app.playSound = function (src) {
 
 // app init //
 app.start = function(){
+  DOM = document;
   document.head = document.getElementsByTagName("head")[0];
   document.body = document.getElementsByTagName("body")[0];
   //app.loading.init();
