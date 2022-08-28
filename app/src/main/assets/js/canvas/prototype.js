@@ -18,3 +18,8 @@ CanvasRenderingContext2D.prototype.drawImageDataURL = function (data_url, x, y, 
     img = null;
   }
 };
+
+/* limpiar lienzo */
+CanvasRenderingContext2D.prototype.clearCanvas = function () {
+  this.clearRect(0, 0, canvas.width, canvas.height);
+}

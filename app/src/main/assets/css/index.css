@@ -1,6 +1,13 @@
 
 :root {
-  
+  /* tema de aplicación */
+  --primary-color: #0000ff;
+  --primary-font-color: #ffffff;
+  --accent-color: #ffffff;
+  --accent-lightcolor: #eeeeee;
+  --accent-font-color: #565656;
+  --accent-font-darkcolor: #000000;
+  --accent-font-lightcolor: #cccccc;
 }
 
 * {
@@ -12,6 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 5px;
   padding: 6px;
   border-radius: 5px;
   width: 25px;
@@ -29,4 +37,33 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.DrawText{
+  background: #133;
+  margin: 40px;
+  border:10px solid blue;
+}
+
+.LiniarGrosor{
+  background: #133;
+  border: 10px solid blue;
+  margin: 40px;
+}
+
+.Paleta{
+background: #133;
+ border: 10px solid blue;
+ margin: 40px;
+}
+
+.Capas{
+background: #133;
+ border: 10px solid blue;
+ margin: 40px;
+}
+
+.Figures{
+  background: #133;
+  border: 10px solid blue;
 }

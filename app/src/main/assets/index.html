@@ -10,12 +10,18 @@
     <title> Gliss-Paint </title>
   </head>
 
+
+
   <body onload="app.start()">
     <canvas id="canvas"></canvas>
-    
+   
     <div id="tool-bar">
-      <div class="tool-bar--button" onclick="undo()"> ↪️ </div>
+      <div class="tool-bar--button" onclick="OnUndo()"> ↪️ </div>
+      <div class="tool-bar--button" onclick="OnPencilStyle()">🖌️ </div>
     </div>
+    
+    
+    
   </body>
 
 </html>
